@@ -1,0 +1,9 @@
+body {
+    background-color: $bg_color;
+    width: 100%;
+    .main_wrap {
+        margin: 8%;
+        border: 2px solid $font_color;
+        padding: 5%;
+    }
+}
