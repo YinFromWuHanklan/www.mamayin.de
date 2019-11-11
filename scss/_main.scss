@@ -1,9 +1,14 @@
 body {
-    background-color: $bg_color;
     width: 100%;
+    background-color: $bg_color;
     .main_wrap {
         margin: 8%;
-        border: 2px solid $font_color;
         padding: 5%;
+        background-color: #FFF;
+        .article_wrap {
+            &+.article_wrap {
+                margin-top: 20px;
+            }
+        }
     }
 }
