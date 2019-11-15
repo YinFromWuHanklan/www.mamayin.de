@@ -1,11 +1,15 @@
 body {
     width: 100%;
     background-color: $bg_color;
+    color: #d0d0d0;
     .main_wrap {
-        margin: 8%;
-        padding: 5%;
-        background-color: #FFF;
+        // margin: 8%;
+        // padding: 5%;
+        // background-color: #FFF;
         .article_wrap {
+            border: 1px solid #fdf0eb;
+            padding: 8%;
+            margin: 8%;
             &+.article_wrap {
                 margin-top: 20px;
             }

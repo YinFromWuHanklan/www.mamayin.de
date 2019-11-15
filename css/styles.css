@@ -46,15 +46,34 @@ td, th {
 
 body {
   width: 100%;
-  background-color: #ffe6e6;
+  background-color: #2e2e2e;
+  color: #d0d0d0;
 }
-body .main_wrap {
+body .main_wrap .article_wrap {
+  border: 1px solid #fdf0eb;
+  padding: 8%;
   margin: 8%;
-  padding: 5%;
-  background-color: #FFF;
 }
 body .main_wrap .article_wrap + .article_wrap {
   margin-top: 20px;
+}
+
+h1, h2 {
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=styles.css.map */
